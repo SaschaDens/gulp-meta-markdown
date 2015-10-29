@@ -1,0 +1,28 @@
+{
+  "name": "gulp-meta-markdown",
+  "version": "1.0.0",
+  "description": "With this plugin it's possible to add additional meta data to the markdown files and will parse this to a JSON format.",
+  "main": "./lib/gulp-meta-markdown.js",
+  "repository": "https://github.com/SaschaDens/gulp-meta-markdown.git",
+  "bugs": "https://github.com/SaschaDens/gulp-meta-markdown/issues",
+  "homepage": "http://saschadens.be",
+  "keywords": [
+    "markdown",
+    "metadata"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Sascha Dens <dens.sascha@gmail.com> (http://saschadens.be/",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "marked": "^0.3.5",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.3",
+    "vinyl": "^1.1.0"
+  }
+}
